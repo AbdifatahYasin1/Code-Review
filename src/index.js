@@ -83,7 +83,7 @@ clearbtn.addEventListener("click", () => {
 form.addEventListener("submit", (e) => addTodo(e));
 document.querySelector(".reload").addEventListener("click", () => loadTodos());
 const init = () => {
-  // console.log("App is running");
+  
   loadTodos();
 };
 document.addEventListener("DOMContentLoaded", init);
