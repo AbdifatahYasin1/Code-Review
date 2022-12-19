@@ -11,7 +11,7 @@
   },
   "extends": ["airbnb-base"],
   "rules": {
-    "prettier/prettier": ["error", { "singleQuote": true }],
+    "prettier/prettier": ["error", { "singleQuote": false }],
     "no-shadow": "off",
     "no-param-reassign": "off",
     "eol-last": "off"
